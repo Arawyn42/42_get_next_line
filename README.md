@@ -1,3 +1,3 @@
 # 42_get_next_line
 
-Mon code pour le projet get_next_line de 42 Perpignan. Projet valide a 125% (avec les bonus).
+My code for 42 project get_next_line. Project validated at 125% (with bonuses) in October 2023.

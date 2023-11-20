@@ -6,14 +6,14 @@
 /*   By: drenassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 18:14:04 by drenassi          #+#    #+#             */
-/*   Updated: 2023/10/21 18:19:55 by drenassi         ###   ########.fr       */
+/*   Updated: 2023/11/20 20:14:15 by drenassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 #include <stdio.h>
 
-char	*ft_stash(char *stash)
+static char	*ft_stash(char *stash)
 {
 	int		i;
 	char	*res;
@@ -35,7 +35,7 @@ char	*ft_stash(char *stash)
 	return (res);
 }
 
-char	*ft_get_line(char *stash)
+static char	*ft_get_line(char *stash)
 {
 	int		i;
 	char	*line;
@@ -51,7 +51,7 @@ char	*ft_get_line(char *stash)
 	return (line);
 }
 
-char	*ft_read(int fd, char *buffer, char *stash)
+static char	*ft_read(int fd, char *buffer, char *stash)
 {
 	int		r;
 

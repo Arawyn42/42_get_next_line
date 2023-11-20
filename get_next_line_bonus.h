@@ -6,7 +6,7 @@
 /*   By: drenassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 18:13:59 by drenassi          #+#    #+#             */
-/*   Updated: 2023/10/21 18:14:17 by drenassi         ###   ########.fr       */
+/*   Updated: 2023/11/20 20:14:00 by drenassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,6 @@
 # include <unistd.h>
 
 char	*get_next_line(int fd);
-char	*ft_read(int fd, char *buffer, char *statch);
-char	*ft_get_line(char *statch);
 
 char	*gnl_strchr(char const *s, int c);
 size_t	gnl_strlen(char const *s);

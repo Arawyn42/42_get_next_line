@@ -16,4 +16,4 @@ To clone the repository, you can use the following command:
 ```
 
 # Score obtained
-![125](Project_score.png)
+![125](grade.png)

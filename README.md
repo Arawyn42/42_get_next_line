@@ -15,5 +15,5 @@ To clone the repository, you can use the following command:
   git clone https://github.com/Arawyn42/42_get_next_line
 ```
 
-# Score obtained
+# Grade obtained
 ![125](grade.png)

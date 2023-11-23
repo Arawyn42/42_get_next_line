@@ -8,12 +8,12 @@ The get_next_line function consists in returning a file content line by line. It
 
 The bonus consists in using no more than one static variable, and handling mutiple file descriptors in the same time.
 
-# How to use ?
+## How to use ?
 Since it's not a program, you have to include it in your program files. Don't forget to change the includes if needed so it can access to your own header files.
 To clone the repository, you can use the following command:
 ```bash
   git clone https://github.com/Arawyn42/42_get_next_line
 ```
 
-# Grade obtained
+## Grade obtained
 ![125](grade.png)

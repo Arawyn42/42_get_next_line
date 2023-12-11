@@ -1,5 +1,9 @@
 # <div align="center">⚙️ Get next line (a [42](https://42perpignan.fr/) project) ⚙️</div>
 
+## Grade
+![drenassi's 42 get_next_line Score](https://badge42.coday.fr/api/v2/clph33bao098101t6vnzqbe17/project/3369206)
+
+## Introduction
 **get_next_line** is the fourth project I did for 42 School.
 
 This project teaches us how to read a file, how to use functions like open, close, read. It teaches us to use file descriptors other than 0, 1 and 2 (standard input / output / error output). It also teaches us the use of static variables.
@@ -14,6 +18,3 @@ To clone the repository, you can use the following command:
 ```bash
   git clone https://github.com/Arawyn42/42_get_next_line
 ```
-
-## Grade obtained
-![125](grade.png)

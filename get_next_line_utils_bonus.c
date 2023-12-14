@@ -6,7 +6,7 @@
 /*   By: drenassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 18:14:30 by drenassi          #+#    #+#             */
-/*   Updated: 2023/10/21 18:14:45 by drenassi         ###   ########.fr       */
+/*   Updated: 2023/12/14 21:34:11 by drenassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,24 +36,6 @@ size_t	gnl_strlen(char const *s)
 	while (s && s[i])
 		i++;
 	return (i);
-}
-
-char	*gnl_strdup(char const *src)
-{
-	int		i;
-	char	*dest;
-
-	dest = malloc((gnl_strlen(src) + 1) * sizeof(char));
-	if (!dest)
-		return (NULL);
-	i = 0;
-	while (src[i])
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	dest[i] = '\0';
-	return (dest);
 }
 
 char	*gnl_strjoin(char *s1, char const *s2)

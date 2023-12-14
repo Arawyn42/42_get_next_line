@@ -6,7 +6,7 @@
 /*   By: drenassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 14:57:14 by drenassi          #+#    #+#             */
-/*   Updated: 2023/11/20 20:13:02 by drenassi         ###   ########.fr       */
+/*   Updated: 2023/12/14 20:45:40 by drenassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static char	*ft_stash(char *stash)
 		i++;
 	if (stash[i] == '\n')
 		i++;
-	res = gnl_substr(stash, i, gnl_strlen(stash) - i + 1);
+	res = gnl_substr(stash, i, gnl_strlen(stash) - i);
 	free(stash);
 	if (res[0] == 0)
 	{
